@@ -1,12 +1,8 @@
 jQuery(document).ready(function(){
+  $('.more_btn').on('click',function(){
+    $(this).closest('.more_btn').fadeToggle();
+    $(this).closest('.row').find('.hidding').fadeToggle(2000);
 
-  $('.icon').on('mouseover',function(){
-    $('.highlighted').removeClass('highlighted');
-    $(this).closest('.b_icon').addClass('highlighted');
   });
 
-  $('.icon').on('mouseout',function(){
-    $('.highlighted').removeClass('highlighted');
-  });
-  
 });
