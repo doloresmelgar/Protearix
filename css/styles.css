@@ -30,7 +30,8 @@ h2 {
   text-align: justify;
   text-indent: 10%;
   padding-left: 25px;
-  font-size: 16px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 17px;
   display: inline-flex;
   align-items: flex-end;
   margin-left: 25px;
@@ -64,41 +65,4 @@ h2 {
 
 .hidding {
   display: none;
-}
-
-
-#textdetails {
-  text-align: justify;
-  padding-top: 30px;
-  font-family: 'Special Elite', cursive;
-  color: #d6d6d6;
-  font-size: 18pt;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-blockquote {
-  border-radius: 3px;
-  padding: 36px 50px;
-  box-shadow: 0 4px rgba(0,0,0,.25);
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  background: RGBA(40,40,40,0.7);
-  margin-bottom: 10px;
-  color: #868585;
-  font-size: 16px;
-  font-family: verdana;
-  font-style: italic;
-}
-
-
-.item {
-  border: solid 2px white;
-  max-width: 85%;
-  max-height: 85%;
-  min-height: 400px;
-  margin: auto;
-  position: relative;
 }
