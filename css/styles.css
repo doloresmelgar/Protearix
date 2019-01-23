@@ -55,7 +55,7 @@ h2 {
   font-size: 30px;
   font-family: 'Teko', cursive;
   color: #a1004b;
-  margin: auto;
+  text-align: center;
   display: inline-flex;
   align-items: flex-end;
 }
