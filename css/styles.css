@@ -28,7 +28,7 @@ h2 {
 
 #textcover {
   text-align: justify;
-  text-indent: 10%;
+  text-indent: 5%;
   padding-left: 25px;
   font-family: 'Varela Round', sans-serif;
   font-size: 17px;
@@ -46,10 +46,58 @@ h2 {
   align-items: flex-end;
 }
 
+#listtitle {
+  text-align: left;
+  text-indent: 5%;
+  padding-left: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 17px;
+}
+
+.listcover {
+  padding-left: 16px;
+}
+
+.listcover:before {
+  content: "\27BD"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  font-size: 17px;
+  font-weight: 900;
+  color: #a1004b; /* Or a color you prefer */
+}
+
+#ulist {
+  list-style: none; /* Remove list bullets */
+  text-indent: 5%;
+  margin-bottom: 1em;
+  margin-left: 20%;
+  margin-right: 25px;
+  padding-left: 25px;
+  text-align: left;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 17px;
+}
 
 .more_btn {
-  border: 0px;
+  border: 2px solid #a1004b;
+  border-radius: 8px;
   background-color: transparent;
+  padding: 0px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Teko', cursive;
+  color: #a1004b;
+  text-align: center;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.highlighted {
+  border: 2px solid #a1004b;
+  border-radius: 8px;
+  background-color: rgba(161, 0, 75, 0.25);
   padding: 0px;
   text-align: center;
   font-size: 30px;
