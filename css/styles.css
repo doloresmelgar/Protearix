@@ -71,12 +71,14 @@ h2 {
 }
 
 #ulist {
+  width: 100%;
+  display: block;
+  align-items: center;
   list-style: none; /* Remove list bullets */
   text-indent: 5%;
   margin-bottom: 1em;
-  margin-left: 20%;
-  margin-right: 25px;
   padding-left: 25px;
+  margin-left: 10%;
   text-align: left;
   font-family: 'Varela Round', sans-serif;
   font-size: 17px;
